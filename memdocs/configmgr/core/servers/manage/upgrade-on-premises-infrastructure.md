@@ -63,7 +63,7 @@ Use the steps in this section for any of the following upgrade scenarios:
 
 #### Before upgrade
 
-- (Windows Server 2012 or Windows Server 2012 R2): Remove the System Center Endpoint Protection (SCEP) client. Windows Server now has Windows Defender built in, which replaces the SCEP client. The presence of the SCEP client can prevent an upgrade to Windows Server.  
+- (Windows Server 2012 or Windows Server 2012 R2): Remove the System Center Endpoint Protection (SCEP) client. Windows Server now has Microsoft Defender built in, which replaces the SCEP client. The presence of the SCEP client can prevent an upgrade to Windows Server.  
 
 - Remove the WSUS role from the server if it's installed. You may keep the SUSDB and reattach it once WSUS is reinstalled.  
 
@@ -73,7 +73,7 @@ Use the steps in this section for any of the following upgrade scenarios:
 
 #### After upgrade
 
-- Make sure Windows Defender is enabled, set for automatic start, and running.  
+- Make sure Microsoft Defender is enabled, set for automatic start, and running.  
 
 - Make sure the following Configuration Manager services are running:  
 

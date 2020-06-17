@@ -148,33 +148,33 @@ Try to complete the following tasks and then send us **Feedback** from the **Hom
 - Deploy to a client an Office 365 update with a deadline set to a time at least 60 minutes ahead of the current time. Observe the new behavior on the client.
 
 
-## Configure and deploy Windows Defender Application Guard policies
+## Configure and deploy Microsoft Defender Application Guard policies
 
-[Windows Defender Application Guard](https://blogs.windows.com/msedgedev/2016/09/27/application-guard-microsoft-edge/#XLxEbcpkuKcFebrw.97) is a new Windows feature that helps protect your users by opening untrusted web sites in a secure isolated container that is not accessible by other parts of the operating system. In this technical preview, we've added support to configure this feature using Configuration Manager compliance settings which you configure, and then deploy to a collection.
+[Microsoft Defender Application Guard](https://blogs.windows.com/msedgedev/2016/09/27/application-guard-microsoft-edge/#XLxEbcpkuKcFebrw.97) is a new Windows feature that helps protect your users by opening untrusted web sites in a secure isolated container that is not accessible by other parts of the operating system. In this technical preview, we've added support to configure this feature using Configuration Manager compliance settings which you configure, and then deploy to a collection.
 This feature will be released in preview for the 64-bit version of the Windows 10 Creator's Update. To test this feature now, you must be using a preview version of this update.
 
 
 ### Before you start
 
-To create and deploy Windows Defender Application Guard policies, the Windows 10 devices to which you deploy the policy must be configured with a network isolation policy. For more details, see the blog post referenced later.
+To create and deploy Microsoft Defender Application Guard policies, the Windows 10 devices to which you deploy the policy must be configured with a network isolation policy. For more details, see the blog post referenced later.
 This capability works only with current Windows 10 Insider builds. To test it, your clients must be running a recent Windows 10 Insider Build.
 
 ### Try it out!
 
-Ensure you have read the blog post to understand the basics about Windows Defender Application Guard.
+Ensure you have read the blog post to understand the basics about Microsoft Defender Application Guard.
 
 To create a policy, and to browse the available settings:
 
 1.  In the Configuration Manager console, choose **Assets and Compliance**.
-2.  In the **Assets and Compliance** workspace, choose **Overview** > **Endpoint Protection** > **Windows Defender Application Guard**.
-3.  In the **Home** tab, in the **Create** group, click **Create Windows Defender Application Guard Policy**.
+2.  In the **Assets and Compliance** workspace, choose **Overview** > **Endpoint Protection** > **Microsoft Defender Application Guard**.
+3.  In the **Home** tab, in the **Create** group, click **Create Microsoft Defender Application Guard Policy**.
 4.  Using the blog post as a reference, you can browse and configure the available settings to try the feature out.
 5.  When you are finished, complete the wizard, and deploy the policy to one or more Windows 10 devices.
 
 ### Further reading
 
-To read more about Windows Defender Application Guard, see [this blog post]( https://blogs.windows.com/msedgedev/2016/09/27/application-guard-microsoft-edge/#BmJGKPfSjHHzsMmI.97).
-Additionally, to learn more about Windows Defender Application Guard Standalone mode, see [this blog post](https://techcommunity.microsoft.com/t5/Windows-Insider-Program/Windows-Defender-Application-Guard-Standalone-mode/td-p/66903).
+To read more about Microsoft Defender Application Guard, see [this blog post]( https://blogs.windows.com/msedgedev/2016/09/27/application-guard-microsoft-edge/#BmJGKPfSjHHzsMmI.97).
+Additionally, to learn more about Microsoft Defender Application Guard Standalone mode, see [this blog post](https://techcommunity.microsoft.com/t5/Windows-Insider-Program/Windows-Defender-Application-Guard-Standalone-mode/td-p/66903).
 
 
 

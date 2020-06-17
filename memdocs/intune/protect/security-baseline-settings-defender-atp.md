@@ -692,7 +692,7 @@ CSP: [MdmStore/Global/SaIdleTime](https://go.microsoft.com/fwlink/?linkid=872539
 
   - **Yes** (*default*) - The Microsoft Defender User Interface (UI) is inaccessible and notifications are surprised
   - **Not configured**
- When set to Yes, the Windows Defender User Interface (UI) will be inaccessible and notifications will be surprised. When set to Not configured, the setting will return to client default in which UI and notifications will be allowed
+ When set to Yes, the Microsoft Defender User Interface (UI) will be inaccessible and notifications will be surprised. When set to Not configured, the setting will return to client default in which UI and notifications will be allowed
 
 - **Maximum allowed CPU usage (0-100 percent) per scan**  
   CSP: [Defender/AvgCPULoadFactor](https://go.microsoft.com/fwlink/?linkid=2114046&clcid=0x409)

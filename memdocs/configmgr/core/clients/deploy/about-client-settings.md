@@ -358,7 +358,7 @@ Choose **Yes** to allow clients to download content from an on-premises distribu
 
 ### Manage Endpoint Protection client on client computers
 
-Choose **Yes** if you want to manage existing Endpoint Protection and Windows Defender clients on computers in your hierarchy.  
+Choose **Yes** if you want to manage existing Endpoint Protection and Microsoft Defender clients on computers in your hierarchy.  
 
 Choose this option if you've already installed the Endpoint Protection client, and want to manage it with Configuration Manager. This separate installation includes a scripted process that uses a Configuration Manager application or package and program. Windows 10 devices don't need to have the Endpoint Protection agent installed. However, those devices will still need **Manage Endpoint Protection client on client computers** enabled. <!--503654-->
 
@@ -526,7 +526,7 @@ Then, configure the following additional settings as needed:
     > [!IMPORTANT]  
     > This number must match the number in the site **Properties**. If you change this number in one place, it isn't automatically updated in the other place.  
 
-- **Windows Defender Firewall exception for wake-up proxy**: The Configuration Manager client automatically configures the wake-up proxy port number on devices that run Windows Defender Firewall. Select **Configure** to specify the firewall profiles.  
+- **Microsoft Defender Firewall exception for wake-up proxy**: The Configuration Manager client automatically configures the wake-up proxy port number on devices that run Windows Defender Firewall. Select **Configure** to specify the firewall profiles.  
 
     If clients run a different firewall, manually configure it to allow the **Wake-up proxy port number (UDP)**.  
 

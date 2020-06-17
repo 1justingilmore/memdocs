@@ -28,7 +28,7 @@ If you use WSUS to keep your antimalware definitions up to date, you can configu
 
 1. To specify the **Products** updated with WSUS, switch to the **Products** tab.
 
-    - For Windows 10 and later: Under Microsoft > Windows, select **Windows Defender**.
+    - For Windows 10 and later: Under Microsoft > Windows, select **Microsoft Defender**.
 
     - For Windows 8.1 and earlier: Under Microsoft > Forefront, select **System Center Endpoint Protection**.
 
@@ -42,7 +42,7 @@ Use the following procedure to configure Endpoint Protection updates when your W
 
 1. To specify the **Products** updated with WSUS, switch to the **Products** tab.
 
-    - For Windows 10 and later: Under Microsoft > Windows, select **Windows Defender**.
+    - For Windows 10 and later: Under Microsoft > Windows, select **Microsoft Defender**.
 
     - For Windows 8.1 and earlier: Under Microsoft > Forefront, select **System Center Endpoint Protection**.
 
@@ -78,7 +78,7 @@ You can also set an automatic approval rule for definition updates and Endpoint 
 
     1. Under **Step 2: Edit the properties**, select **any product**.
 
-    1. Clear all options except **System Center Endpoint Protection** for Windows 8.1 and earlier or **Windows Defender** for Windows 10 and later. Then select **OK**.
+    1. Clear all options except **System Center Endpoint Protection** for Windows 8.1 and earlier or **Microsoft Defender** for Windows 10 and later. Then select **OK**.
 
 1. Under **Step 3: Specify a name**, enter a name for the rule, and then select **OK**.
 

@@ -411,7 +411,7 @@ For more information, see [Install and configure distribution points](../../serv
 
 - .NET Framework 3.5
 
-- Windows Defender features (Windows Server 2016 or later)  
+- Microsoft Defender features (Windows Server 2016 or later)  
 
 ### SQL Server Native Client
 

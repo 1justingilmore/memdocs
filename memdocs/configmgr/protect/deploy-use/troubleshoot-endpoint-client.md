@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot Endpoint Protection
 titleSuffix: Configuration Manager
-description: Learn how to troubleshoot problems with Windows Defender and Endpoint Protection.
+description: Learn how to troubleshoot problems with Microsoft Defender and Endpoint Protection.
 ms.date: 09/10/2019
 ms.prod: configuration-manager
 ms.technology: configmgr-protect
@@ -14,22 +14,22 @@ manager: dougeby
 
 ---
 
-# Troubleshoot Windows Defender or Endpoint Protection client
+# Troubleshoot Microsoft Defender or Endpoint Protection client
 
 *Applies to: Configuration Manager (current branch)*
 
-If you come across problems with Windows Defender or Endpoint Protection, use this article to troubleshoot the following problems:  
+If you come across problems with Microsoft Defender or Endpoint Protection, use this article to troubleshoot the following problems:  
 
-- [Update Windows Defender or Endpoint Protection](#update-windows-defender-or-endpoint-protection)  
-- [Starting Windows Defender or Endpoint Protection service](#starting-windows-defender-or-endpoint-protection-service)  
+- [Update Microsoft Defender or Endpoint Protection](#update-windows-defender-or-endpoint-protection)  
+- [Starting Microsoft Defender or Endpoint Protection service](#starting-microsoft-defender-or-endpoint-protection-service)  
 - [Internet connection issues](#internet-connection-issues)  
 - [Detected threat can't be remediated](#detected-threat-cant-be-remediated)  
 
-## Update Windows Defender or Endpoint Protection
+## Update Microsoft Defender or Endpoint Protection
 
 ### Symptoms
 
-Windows Defender or Endpoint Protection works automatically with Microsoft Update to make sure that your virus and spyware definitions are kept up-to-date.  
+Microsoft Defender or Endpoint Protection works automatically with Microsoft Update to make sure that your virus and spyware definitions are kept up-to-date.  
 
 This section addresses common issues with automatic updates, including the following situations:  
 
@@ -62,7 +62,7 @@ The most common causes for update issues are problems with internet connectivity
 
 5. Select **OK** when the settings are reset.
 
-6. Try to update Windows Defender again.
+6. Try to update Microsoft Defender again.
 
 If the issue persists, continue to the next step.  
 
@@ -107,7 +107,7 @@ If the error message contains the code 0x80072f8f, the problem is most likely ca
     ```cmd
     cd \
 
-    cd program files\windows defender
+    cd program files\microsoft defender
 
     MpCmdRun -RemoveDefinitions -all
 
@@ -116,7 +116,7 @@ If the error message contains the code 0x80072f8f, the problem is most likely ca
 
 3. Restart the computer.  
 
-4. Try to update Windows Defender again.
+4. Try to update Microsoft Defender again.
 
 If the issue persists, continue to the next step.  
 
@@ -128,11 +128,11 @@ If the issue persists, continue to the next step.
 
 If these steps didn't resolve the issue, contact Microsoft support. For more information, see [Support options and community resources](../../core/understand/find-help.md#BKMK_SupportOptions).  
 
-## Starting Windows Defender or Endpoint Protection service
+## Starting Microsoft Defender or Endpoint Protection service
 
 ### Symptom
 
-You receive a message notifying you that **Windows Defender or Endpoint Protection isn't monitoring your computer because the program's service stopped. You should restart it now.**
+You receive a message notifying you that **Microsoft Defender or Endpoint Protection isn't monitoring your computer because the program's service stopped. You should restart it now.**
 
 ### Solution
 
@@ -144,7 +144,7 @@ Close all applications and restart your computer.
 
 1. Go to **Start**, and open **services.msc**.  
 
-2. Select the **Windows Defender Antivirus Service**.  
+2. Select the **Microsoft Defender Antivirus Service**.  
 
 3. Make sure that the **Startup Type** is set to **Automatic**.
 
@@ -166,7 +166,7 @@ Note any errors that may appear during this process. [Contact Microsoft Support]
 3. Restart your computer.  
 
 > [!CAUTION]  
-> When you remove security programs, your computer may be unprotected. If you have problems installing Windows Defender after you remove existing security programs, contact [Microsoft Support](https://support.microsoft.com/supportforbusiness/productselection). Select the **Security** product family, and then the **Windows Defender** product.
+> When you remove security programs, your computer may be unprotected. If you have problems installing Microsoft Defender after you remove existing security programs, contact [Microsoft Support](https://support.microsoft.com/supportforbusiness/productselection). Select the **Security** product family, and then the **Microsoft Defender** product.
 
 ## Internet connection issues
 
@@ -184,13 +184,13 @@ Close any open programs and restart your computer.
 
 ## Detected threat can't be remediated
 
-When Windows Defender or Endpoint Protection detects a potential threat, it tries to mitigate the threat by quarantining or removing the threat. These threats can hide inside a compressed archive (`.zip`) or in a network share.
+When Microsoft Defender or Endpoint Protection detects a potential threat, it tries to mitigate the threat by quarantining or removing the threat. These threats can hide inside a compressed archive (`.zip`) or in a network share.
 
 ### Remove or scan the file  
 
-- If the detected threat was in a compressed archive file, browse to the file. Delete the file, or manually scan it. Right-click the file and select **Scan with Windows Defender**. If Windows Defender detects additional threats in the file, it notifies you. Then you can choose an appropriate action.  
+- If the detected threat was in a compressed archive file, browse to the file. Delete the file, or manually scan it. Right-click the file and select **Scan with Microsoft Defender**. If Windows Defender detects additional threats in the file, it notifies you. Then you can choose an appropriate action.  
 
-- If the detected threat was in a network share, open the share, and manually scan it. Right-click the file and select **Scan with Windows Defender**. If Windows Defender detects additional threats in the network share, it notifies you. Then you can choose an appropriate action.  
+- If the detected threat was in a network share, open the share, and manually scan it. Right-click the file and select **Scan with Microsoft Defender**. If Windows Defender detects additional threats in the network share, it notifies you. Then you can choose an appropriate action.  
 
 - If you're not sure of the file's origin, run a full scan on your computer. A full scan may take some time to complete.  
 

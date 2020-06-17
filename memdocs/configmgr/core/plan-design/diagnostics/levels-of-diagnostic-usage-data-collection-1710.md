@@ -287,7 +287,7 @@ For Configuration Manager version 1710, this level includes the following:
 
    - Count of collections that are selected to appear in Endpoint Protection dashboard  
 
-   - ***[New]*** Count of Windows Defender Exploit Guard policies, deployments and targeted clients
+   - ***[New]*** Count of Microsoft Defender Exploit Guard policies, deployments and targeted clients
 
    - Endpoint Protection deployment errors (count of Endpoint Protection policy deployment error codes)  
 

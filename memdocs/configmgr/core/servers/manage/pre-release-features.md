@@ -77,7 +77,7 @@ When you enable a pre-release feature, the Configuration Manager hierarchy manag
 | [Client apps for co-managed devices](../../../comanage/workloads.md#client-apps) <br/> (previously known as *Mobile apps for co-managed devices*) <!--1357892/3600959,CC3AE625-BF72-49B1-8AB1-AF0DCF2D6F4C--> | Version 1806 | Version 2002 |
 | [Package conversion manager](../../../apps/pcm/package-conversion-manager.md) <!--1357861--> | Version 1806 | Version 1810 |
 | [Phased deployments](../../../osd/deploy-use/create-phased-deployment-for-task-sequence.md) <!--1356837--> | Version 1802 | Version 1806 |
-| [Windows Defender Application Control management](../../../protect/deploy-use/use-device-guard-with-configuration-manager.md) <!--3600958 (fka 1355092 & 1319346)--> | Version 1702 | Version 1906 |
+| [Microsoft Defender Application Control management](../../../protect/deploy-use/use-device-guard-with-configuration-manager.md) <!--3600958 (fka 1355092 & 1319346)--> | Version 1702 | Version 1906 |
 | [Servicing a cluster-aware collection (Server groups)](../../../sum/deploy-use/service-a-server-group.md) <!--1081776,290B66D8-C735-4895-B59A-DD732D84A697--> | Version 1602 | ![Not yet](media/red_x.png) |
 
 <!--Image used = ![Not yet](media/red_x.png) -->

@@ -519,13 +519,13 @@ For more information on the dashboard, prerequisites, and using this data, see [
 
 ## <a name="bkmk_protect"></a> Protection
 
-### Windows Defender Application Guard file trust criteria
+### Microsoft Defender Application Guard file trust criteria
 
 <!--3555858-->
 
-There's a new policy setting that enables users to trust files that normally open in Windows Defender Application Guard (WDAG). Upon successful completion, the files will open on the host device instead of in WDAG.
+There's a new policy setting that enables users to trust files that normally open in Microsoft Defender Application Guard (WDAG). Upon successful completion, the files will open on the host device instead of in WDAG.
 
-For more information, see [Create and deploy Windows Defender Application Guard policy](../../../protect/deploy-use/create-deploy-application-guard-policy.md#bkmk_FM).
+For more information, see [Create and deploy Microsoft Defender Application Guard policy](../../../protect/deploy-use/create-deploy-application-guard-policy.md#bkmk_FM).
 
 
 ## <a name="bkmk_admin"></a> Configuration Manager console
@@ -616,7 +616,7 @@ Version 1906 deprecates support for the following products:
 As of this version, the following features are no longer pre-release:
 
 - [SMS Provider administration service](../hierarchy/plan-for-the-sms-provider.md#bkmk_admin-service)
-- [Windows Defender Application Control management](../../../protect/deploy-use/use-device-guard-with-configuration-manager.md)
+- [Microsoft Defender Application Control management](../../../protect/deploy-use/use-device-guard-with-configuration-manager.md)
 
 Aside from new features, this release also includes additional changes such as bug fixes. For more information, see [Summary of changes in Configuration Manager current branch, version 1906](https://support.microsoft.com/help/4514258).
 

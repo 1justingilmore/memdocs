@@ -130,7 +130,7 @@ Yes, the following Windows Analytics features were either retired or aren't yet 
 - Delivery Optimization insights
 - Support for Windows 10 long-term servicing channel (LTSC)
 - Windows Insider reports
-- Windows Defender status
+- Microsoft Defender status
 
 > [!Note]
 > All existing Update Compliance features, including those not available in Desktop Analytics, remain available in the [Update Compliance](/windows/deployment/update/update-compliance-get-started) solution in the Azure portal.

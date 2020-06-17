@@ -40,7 +40,7 @@ Windows 10 computers don't require any additional client for endpoint protection
 
 -   Network vulnerability detection through Network Inspection System  
 
--   Integration with Cloud Protection Service to report malware to Microsoft. When you join this service, Windows Defender or the Endpoint Protection client can download the latest definitions from the Malware Protection Center when unidentified malware is detected on a computer.  
+-   Integration with Cloud Protection Service to report malware to Microsoft. When you join this service, Microsoft Defender or the Endpoint Protection client can download the latest definitions from the Malware Protection Center when unidentified malware is detected on a computer.  
 
 > [!NOTE]  
 >  The Endpoint Protection client can be installed on a server that runs Hyper-V and on guest virtual machines with supported operating systems. To prevent excessive CPU usage, Endpoint Protection actions have a built-in, randomized delay so that services do not run simultaneously.  
@@ -77,7 +77,7 @@ Endpoint Protection in Configuration Manager allows you to create antimalware po
 
 ## Microsoft Defender Advanced Threat Protection
 
-Starting with version 1606 of Configuration Manager (current branch), Endpoint Protection can help manage and monitor Microsoft Defender Advanced Threat Protection (ATP), formerly known as Windows Defender ATP. Microsoft Defender ATP is a service that will help enterprises to detect, investigate, and respond to advanced attacks on their networks. See [Microsoft Defender Advanced Threat Protection](../deploy-use/windows-defender-advanced-threat-protection.md).
+Starting with version 1606 of Configuration Manager (current branch), Endpoint Protection can help manage and monitor Microsoft Defender Advanced Threat Protection (ATP), formerly known as Microsoft Defender ATP. Microsoft Defender ATP is a service that will help enterprises to detect, investigate, and respond to advanced attacks on their networks. See [Microsoft Defender Advanced Threat Protection](../deploy-use/windows-defender-advanced-threat-protection.md).
 
 ## Endpoint Protection Workflow  
  Use the following diagram to help you understand the workflow to implement Endpoint Protection in your Configuration Manager hierarchy.  

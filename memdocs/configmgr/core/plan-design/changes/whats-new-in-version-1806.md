@@ -249,9 +249,9 @@ For more information, see [Co-management prerequisites](../../../comanage/overvi
 
 ## Compliance settings
 
-### Configure Windows Defender SmartScreen settings for Microsoft Edge
+### Configure Microsoft Defender SmartScreen settings for Microsoft Edge
 <!--1353701-->
-The Microsoft Edge browser compliance settings policy adds the following three settings for Windows Defender SmartScreen: 
+The Microsoft Edge browser compliance settings policy adds the following three settings for Microsoft Defender SmartScreen: 
 - Allow SmartScreen
 - Users can override SmartScreen prompt for sites
 - Users can override SmartScreen prompt for files

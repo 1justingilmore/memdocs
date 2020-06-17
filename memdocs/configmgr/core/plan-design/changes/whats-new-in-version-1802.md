@@ -281,13 +281,13 @@ The **Windows 10 Servicing details for a specific collection** report displays g
 
  ## Protect devices
 
-### Improvements to Configuration Manager Policies for Windows Defender Exploit Guard
+### Improvements to Configuration Manager Policies for Microsoft Defender Exploit Guard
 <!-- 1356220 -->
-Additional policy settings for the [Attack Surface Reduction](../../../protect/deploy-use/create-deploy-exploit-guard-policy.md#bkmk_ASR) and [Controlled folder access](../../../protect/deploy-use/create-deploy-exploit-guard-policy.md#bkmk_CFA) components have been added in Configuration Manager for [Windows Defender Exploit Guard](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction).
+Additional policy settings for the [Attack Surface Reduction](../../../protect/deploy-use/create-deploy-exploit-guard-policy.md#bkmk_ASR) and [Controlled folder access](../../../protect/deploy-use/create-deploy-exploit-guard-policy.md#bkmk_CFA) components have been added in Configuration Manager for [Microsoft Defender Exploit Guard](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction).
 
-### New host interaction settings for Windows Defender Application Guard
+### New host interaction settings for Microsoft Defender Application Guard
 <!-- 1356256 -->
-For Windows 10 version 1709 and later devices, there are two new host interaction settings for [Windows Defender Application Guard](../../../protect/deploy-use/create-deploy-application-guard-policy.md#bkmk_HIS): 
+For Windows 10 version 1709 and later devices, there are two new host interaction settings for [Microsoft Defender Application Guard](../../../protect/deploy-use/create-deploy-application-guard-policy.md#bkmk_HIS): 
 - Websites can be given access to the host's virtual graphics processor. 
 - Files downloaded inside the container can be persisted on the host. 
 

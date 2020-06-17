@@ -163,7 +163,7 @@ You will find these apps in the **Applications** node of the Configuration Manag
 For details, see [Health attestation for Configuration Manager](../../../core/servers/manage/health-attestation.md).  
 
 ### Improvements to Endpoint Protection antimalware settings  
- 1602 adds the following new settings in Endpoint Protection antimalware policy for Windows Defender:  
+ 1602 adds the following new settings in Endpoint Protection antimalware policy for Microsoft Defender:  
 
 -   Real-time protection: Block potentially unwanted applications at download, prior to installation.  
 

@@ -129,7 +129,7 @@ When clients download cloud-managed content, they use Delivery Optimization from
   - Windows Update for Business: Windows 10 feature and quality updates
   - Office Click-to-Run apps: Office apps and updates
   - Client apps: Microsoft Store apps and updates
-  - Endpoint Protection: Windows Defender definition updates
+  - Endpoint Protection: Microsoft Defender definition updates
 
 On Windows 10 version 1809 or later, verify this behavior with the **Get-DeliveryOptimizationStatus** Windows PowerShell cmdlet. In the cmdlet output, review the **BytesFromCacheServer** value. For more information, see [Monitor Delivery Optimization](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-setup#monitor-delivery-optimization).
 

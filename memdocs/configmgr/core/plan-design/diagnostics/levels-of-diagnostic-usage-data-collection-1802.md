@@ -298,7 +298,7 @@ For Configuration Manager version 1802, this level includes the following data:
 
 - Count of collections that are selected to appear in Endpoint Protection dashboard  
 
-- Count of Windows Defender Exploit Guard policies, deployments, and targeted clients
+- Count of Microsoft Defender Exploit Guard policies, deployments, and targeted clients
 
 - Endpoint Protection deployment errors, count of Endpoint Protection policy deployment error codes  
 

@@ -35,7 +35,7 @@ manager: dougeby
   You can configure multiple definition update sources and control the order in which they are assessed and applied. This is done in the **Configure Definition Update Sources** dialog box when you create an antimalware policy.
 
 > [!IMPORTANT]
->  For Windows 10 PCs, you must configure Endpoint Protection to update malware definitions for Windows Defender.
+>  For Windows 10 PCs, you must configure Endpoint Protection to update malware definitions for Microsoft Defender.
 
 ## How to Configure Definition Update Sources
  Use the following procedure to configure the definition update sources to use for each antimalware policy.

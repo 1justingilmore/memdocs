@@ -40,7 +40,7 @@ The following Configuration Manager options support high availability:
 
 Configuration Manager includes several features that provide near real-time service. If these features are critical to meet your business requirements, plan and configure your sites and hierarchies for high availability. For example:  
 
-- [Client notification actions](../../../clients/manage/manage-clients.md), such as restart, start Windows Defender scans, or remote desktop.  
+- [Client notification actions](../../../clients/manage/manage-clients.md), such as restart, start Microsoft Defender scans, or remote desktop.  
 
 - State-based messages for monitoring features such as software updates and endpoint protection.
 

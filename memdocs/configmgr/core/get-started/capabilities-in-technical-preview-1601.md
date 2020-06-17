@@ -81,7 +81,7 @@ In the 1601 Technical Preview, we have added support for the following features:
 
     -   **Require BitLocker drive encryption:** This is a check to see if the primary drive (e.g. C:\\) on the device is BitLocker encrypted. If Bitlocker encryption is not enabled on the primary device access to email and SharePoint services is blocked.  
 
-    -   **Require Antimalware:** This is a check to see if the antimalware software (System Center Endpoint Protection or Windows Defender only) is enabled and running.  
+    -   **Require Antimalware:** This is a check to see if the antimalware software (System Center Endpoint Protection or Microsoft Defender only) is enabled and running.  
          If it is not enabled, access to email and SharePoint services is blocked.  
 
     End-users who are blocked due to non compliance will view compliance information in the Software Center and will initiate a new policy evaluation when compliance issues are remediated.  

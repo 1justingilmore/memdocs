@@ -66,14 +66,14 @@ Helps you to assess, track, and remediate the configuration compliance of client
 
 ## Endpoint Protection
 
-Provides security, antimalware, and Windows Firewall management for computers in your organization. This area includes management and integration with the following Windows Defender suite features:
+Provides security, antimalware, and Microsoft Firewall management for computers in your organization. This area includes management and integration with the following Microsoft Defender suite features:
 
-- Windows Defender Antivirus
+- Microsoft Defender Antivirus
 - Microsoft Defender Advanced Threat Protection
-- Windows Defender Exploit Guard
-- Windows Defender Application Guard
-- Windows Defender Application Control
-- Windows Defender Firewall
+- Microsoft Defender Exploit Guard
+- Microsoft Defender Application Guard
+- Microsoft Defender Application Control
+- Microsoft Defender Firewall
 
 For more information, see [Endpoint Protection](../../../protect/deploy-use/endpoint-protection.md).  
 

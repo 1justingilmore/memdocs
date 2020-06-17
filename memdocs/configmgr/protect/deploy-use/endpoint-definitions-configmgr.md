@@ -51,7 +51,7 @@ You can configure Configuration Manager software updates to automatically delive
 
     1. Select the **Product** property filter. In the **Search criteria** list, select **<items to find\>**.
 
-        In the **Search Criteria** window, select **System Center Endpoint Protection** for Windows 8.1 and earlier or **Windows Defender** for Windows 10 and later, then select **OK**.
+        In the **Search Criteria** window, select **System Center Endpoint Protection** for Windows 8.1 and earlier or **Microsoft Defender** for Windows 10 and later, then select **OK**.
 
     > [!NOTE]
     > Optionally, you can filter out superseded updates. Select the **Superseded** property filter. In the **Search criteria** list, select **<items to find\>**. In the **Search Criteria** window, select **No**, then select **OK**.

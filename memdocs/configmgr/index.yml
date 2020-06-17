@@ -169,7 +169,7 @@ conceptualContent:
         url: ./compliance/index.yml
     - title: Protect
       links:
-        - text: Windows Defender
+        - text: Microsoft Defender
           url: ./protect/deploy-use/endpoint-protection.md
           itemType: overview
         - text: WDATP

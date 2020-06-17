@@ -75,7 +75,7 @@ In the 1512 Technical Preview we have added the following new settings in Endpoi
 
     -   Advanced: **Allow users to modify auto sample file submission settings**: This setting determines whether a user with local administrative rights on a device can change the auto sample file submission setting in the client interface. By default, this setting is "No" which means the settings can only be changed from within the Configuration Manager console, and local administrators on a device cannot change this configuration.  
 
-         For example, the following shows the Windows Defender setting in Windows 10 set by the administrator as enabled, and the user is not allowed to modify it:  
+         For example, the following shows the Microsoft Defender setting in Windows 10 set by the administrator as enabled, and the user is not allowed to modify it:  
 
          ![TechRef&#95;WinDefender](../../core/get-started/media/TechRef_WinDefender.png "TechRef_WinDefender")  
 
@@ -83,4 +83,4 @@ In the 1512 Technical Preview we have added the following new settings in Endpoi
 
 **Prerequisites for using Endpoint Protection policies:**  
 
-Before you can use Endpoint Protection policies you must install and manage the Endpoint Protection client by using the Endpoint Protection client settings. This is done using the System Center Endpoint Protection client for Windows 7, Windows 8, Windows 8.1, or managed Windows Defender for Windows 10. See [Endpoint Protection](../../protect/deploy-use/endpoint-protection.md).  
+Before you can use Endpoint Protection policies you must install and manage the Endpoint Protection client by using the Endpoint Protection client settings. This is done using the System Center Endpoint Protection client for Windows 7, Windows 8, Windows 8.1, or managed Microsoft Defender for Windows 10. See [Endpoint Protection](../../protect/deploy-use/endpoint-protection.md).  

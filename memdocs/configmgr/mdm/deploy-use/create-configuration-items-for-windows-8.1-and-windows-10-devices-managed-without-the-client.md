@@ -342,7 +342,7 @@ These settings are only for devices running Windows 10 and later.
 - **SmartScreen prompt override**: Allow or prohibit the user to bypass SmartScreen filter warnings about potentially malicious websites.
 - **First run URL**: Specify a website to display when a user opens Edge for the first time.
 
-### Windows Defender Antivirus
+### Microsoft Defender Antivirus
 
 These settings are only for devices running Windows 10 and later.
 

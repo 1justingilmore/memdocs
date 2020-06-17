@@ -159,7 +159,7 @@
 #### [Turn on Windows Firewall](you-need-to-enable-defender-firewall-windows.md)
 #### [Change User Access Control setting](you-need-to-enable-uac-windows.md)
 #### [Update OS build versions](you-need-to-update-os-build-version-windows.md)
-#### [Turn on Windows Defender](turn-on-defender-windows.md)
+#### [Turn on Microsoft Defender](turn-on-defender-windows.md)
 
 ## Using the Intune Company Portal app for Windows 
 ### [Check device access](check-device-access-windows-cpapp.md)

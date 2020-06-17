@@ -167,9 +167,9 @@ In this version of the Technical Preview, improvements have been made for Softwa
 
 
 
-## New settings for Windows Defender Application Guard
+## New settings for Microsoft Defender Application Guard
 <!-- 1356256 -->
-For Windows 10 version 1709 and later devices, there are two new host interaction settings for [Windows Defender Application Guard](../../protect/deploy-use/create-deploy-application-guard-policy.md). 
+For Windows 10 version 1709 and later devices, there are two new host interaction settings for [Microsoft Defender Application Guard](../../protect/deploy-use/create-deploy-application-guard-policy.md). 
 1. Websites can be given access to the host's virtual graphics processor. 
 2. Files downloaded inside the container can be persisted on the host. </br>
 

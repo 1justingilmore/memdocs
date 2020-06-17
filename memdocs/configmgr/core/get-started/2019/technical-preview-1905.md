@@ -30,7 +30,7 @@ The following sections describe the new features to try out in this version:
 [!INCLUDE [Improved control over WSUS maintenance](includes/1905/4110109.md)]
 [!INCLUDE [Improvements to Configuration Manager console](includes/1905/4616810.md)]
 [!INCLUDE [Configure the default maximum run time for software updates](includes/1905/3734426.md)]
-[!INCLUDE [Windows Defender Application Guard file trust criteria](includes/1905/3555858.md)]
+[!INCLUDE [Microsoft Defender Application Guard file trust criteria](includes/1905/3555858.md)]
 [!INCLUDE [Application groups](includes/1905/3555907.md)]
 [!INCLUDE [Task sequence as an app model deployment type](includes/1905/3555953.md)]
 [!INCLUDE [BitLocker management](includes/1905/3601034.md)]

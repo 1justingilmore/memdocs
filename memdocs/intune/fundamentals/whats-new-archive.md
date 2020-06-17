@@ -43,7 +43,7 @@ ms.collection: M365-identity-device-management
 The setup checklist in the Company Portal app for Android has been updated with a lightweight design and new icons. The changes align with the recent updates made to the Company Portal app for iOS. For a side-by-side comparison of the changes, see [What's new in the app UI](whats-new-app-ui.md). For a look at the updated enrollment steps, see [Enroll with Android work profile](../user-help/enroll-device-android-work-profile.md) and [Enroll your Android device](../user-help/enroll-device-android-company-portal.md).  
 
 #### Win32 apps on Windows 10 S mode devices<!-- 3747604 --> 
-You can install and run Win32 apps on Windows 10 S mode managed devices. To do this, you can create one or more supplemental policies for S mode using the Windows Defender Application Control (WDAC) PowerShell tools. Sign the supplemental policies with the Device Guard Signing Portal and then upload and distribute the policies via Intune. In Intune, you will find this capability by selecting **Client apps** > **Windows 10 S supplemental policies**. For more information, see [Enable Win32 apps on S mode devices](../apps/apps-win32-s-mode.md).
+You can install and run Win32 apps on Windows 10 S mode managed devices. To do this, you can create one or more supplemental policies for S mode using the Microsoft Defender Application Control (WDAC) PowerShell tools. Sign the supplemental policies with the Device Guard Signing Portal and then upload and distribute the policies via Intune. In Intune, you will find this capability by selecting **Client apps** > **Windows 10 S supplemental policies**. For more information, see [Enable Win32 apps on S mode devices](../apps/apps-win32-s-mode.md).
 
 #### Set Win32 app availability based on a date and time<!-- 3510685 -->
 As an admin, you can configure the start time and deadline time for a required Win32 app. At the start time, Intune management extension will start the app content download and cache it. The app will be installed at the deadline time. For available apps, start time will dictate when the app is visible in Company Portal. For more information, see [Intune Win32 app management](../apps/apps-win32-app-management.md#set-win32-app-availability-and-notifications).
@@ -473,13 +473,13 @@ Use Intune Endpoint Protection settings to configure [Client-driven recovery pas
 
 This setting initiates a client-driven recovery password refresh after an OS drive recovery (either by using bootmgr or WinRE) and recovery password unlock on a Fixed data drive. This setting refreshes the specific recovery password that was used, and other unused passwords on the volume remain unchanged. For more information see the BitLocker CSP documentation for [ConfigureRecoveryPasswordRotation](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp).
 
-#### Tamper Protection for Windows Defender Antivirus<!-- 4705448        -->
-Use Intune to manage *Tamper Protection* for Windows Defender Antivirus. You'll find the [setting for Tamper Protection](../protect/endpoint-protection-windows-10.md#microsoft-defender-security-center) in the Microsoft Defender Security Center group when you use device configuration profiles for Windows 10 endpoint protection. You can set Tamper Protection to *Enabled* to turn on Temper Protection restrictions, set *Disabled* to turn them off, or set*Not configured* to leave a devices current configuration in place.  
+#### Tamper Protection for Microsoft Defender Antivirus<!-- 4705448        -->
+Use Intune to manage *Tamper Protection* for Microsoft Defender Antivirus. You'll find the [setting for Tamper Protection](../protect/endpoint-protection-windows-10.md#microsoft-defender-security-center) in the Microsoft Defender Security Center group when you use device configuration profiles for Windows 10 endpoint protection. You can set Tamper Protection to *Enabled* to turn on Temper Protection restrictions, set *Disabled* to turn them off, or set*Not configured* to leave a devices current configuration in place.  
 
 For more information about Tamper Protection, see [Prevent security settings changes with tamper protection](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/prevent-changes-to-security-settings-with-tamper-protection) in the Windows documentation.
 
-#### Advanced settings for Windows Defender Firewall are now generally available<!--  5317392       -->  
-The [Windows Defender custom firewall rules for endpoint protection](../protect/endpoint-protection-configure.md#add-custom-firewall-rules-for-windows-10-devices), which you configure as part of a device configuration profile, are out of public preview and are generally available (GA).  You can use these rules to specify inbound and outbound behavior to applications, network addresses, and ports. These rules were released in July as a public preview. 
+#### Advanced settings for Microsoft Defender Firewall are now generally available<!--  5317392       -->  
+The [Microsoft Defender custom firewall rules for endpoint protection](../protect/endpoint-protection-configure.md#add-custom-firewall-rules-for-windows-10-devices), which you configure as part of a device configuration profile, are out of public preview and are generally available (GA).  You can use these rules to specify inbound and outbound behavior to applications, network addresses, and ports. These rules were released in July as a public preview.
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Monitor and troubleshoot
@@ -620,12 +620,12 @@ Applies to:
 #### Improved device status for macOS FileVault encryption<!-- 4944983         -->
 We've updated several of the [device status messages](../protect/encryption-monitor.md#device-encryption-status) for FileVault encryption on macOS devices.
 
-#### Some Windows Defender Antivirus scan settings in the reporting show a Failed status<!-- 5119229 -->
-In Intune, you can create policies to use Windows Defender Antivirus to scan your Windows 10 devices (**Device configuration** > **Profiles** > **Create profile** > **Windows 10 and later** for platform > **Device restrictions** for profile type > **Windows Defender Antivirus**). The **Time to perform a daily quick scan** and **Type of system scan to perform** reporting shows a failed status, when it's actually a success status. 
+#### Some Microsoft Defender Antivirus scan settings in the reporting show a Failed status<!-- 5119229 -->
+In Intune, you can create policies to use Microsoft Defender Antivirus to scan your Windows 10 devices (**Device configuration** > **Profiles** > **Create profile** > **Windows 10 and later** for platform > **Device restrictions** for profile type > **Microsoft Defender Antivirus**). The **Time to perform a daily quick scan** and **Type of system scan to perform** reporting shows a failed status, when it's actually a success status.
 
 In this update, this behavior is fixed. So, the **Time to perform a daily quick scan** and **Type of system scan to perform** settings shows a success status when the scans complete successfully, and show a failed status when the settings fail to apply.
 
-For more information on the Windows Defender Antivirus settings, see [Windows 10 (and newer) device settings to allow or restrict features using Intune](../configuration/device-restrictions-windows-10.md#microsoft-defender-antivirus).
+For more information on the Microsoft Defender Antivirus settings, see [Windows 10 (and newer) device settings to allow or restrict features using Intune](../configuration/device-restrictions-windows-10.md#microsoft-defender-antivirus).
 
 ### Zebra Technologies is a supported OEM for OEMConfig on Android Enterprise devices<!-- 4843713 -->
 In Intune, you can create device configuration profiles, and apply settings to Android Enterprise devices using OEMConfig (**Device configuration** > **Profiles** > **Create profile** > **Android enterprise** for platform > **OEMConfig** for profile type).
@@ -791,8 +791,8 @@ You can zoom in to the exact coordinates of a device using the **Locate device**
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Device security
 
-#### Advanced settings for Windows Defender Firewall  (public preview)<!--  1311949     -->  
-Use Intune to manage [custom firewall rules as part of a device configuration profile](../protect/endpoint-protection-configure.md#add-custom-firewall-rules-for-windows-10-devices) for endpoint protection on Windows 10. Rules can specify inbound and outbound behavior to applications, network addresses, and ports. 
+#### Advanced settings for Microsoft Defender Firewall  (public preview)<!--  1311949     -->  
+Use Intune to manage [custom firewall rules as part of a device configuration profile](../protect/endpoint-protection-configure.md#add-custom-firewall-rules-for-windows-10-devices) for endpoint protection on Windows 10. Rules can specify inbound and outbound behavior to applications, network addresses, and ports.
 
 #### Updated UI for managing security baselines<!-- 4091125     -->
 We've updated the [create and edit experience](../protect/security-baselines.md#create-the-profile) in the Intune console for our security baselines. Changes include:
@@ -1333,7 +1333,7 @@ You can now search for an exact device name. Go to **Intune** > **Devices** > **
 ### Monitor and troubleshoot
 
 #### Support for additional connectors on the Tenant Status page<!-- 3617202  -->
-The [Tenant Status page](tenant-status.md) now displays status information for additional connectors, including *Windows Defender Advanced Threat Protection* (ATP) and other Mobile Threat Defense connectors.
+The [Tenant Status page](tenant-status.md) now displays status information for additional connectors, including *Microsoft Defender Advanced Threat Protection* (ATP) and other Mobile Threat Defense connectors.
 
 #### Support for the Power BI Compliance app from the Data Warehouse blade in Microsoft Intune<!-- 4260871 -->
 Previously, the **Download Power BI file** link in the **Intune Data Warehouse** blade downloaded an Intune Data Warehouse report (.pbix file). This report has been replaced with the Power BI Compliance app. The Power BI Compliance app will not require special loading or setup. It will open directly in the Power BI online portal and display data specifically for your Intune tenant based on your credentials. In Intune, select the **Set up Intune Data Warehouse** link on the right side of the Intune blade. Then, click **Get Power BI App**. For more information, see [Connect to the Data Warehouse with Power BI](../developer/reports-proc-get-a-link-powerbi.md).
@@ -1672,7 +1672,7 @@ Applies to: Windows 10 and later
 
 #### Use Microsoft-recommended settings with Security Baselines (Public Preview)<!-- 2055484   -->
 
-Intune integrates with other services that focus on security, including Windows Defender ATP and Office 365 ATP. Customers are asking for a common strategy and a cohesive set of end-to-end security workflows across the Microsoft 365 services. Our goal is to align strategies to build solutions that bridge security operations and common administrator tasks. 
+Intune integrates with other services that focus on security, including Microsoft Defender ATP and Office 365 ATP. Customers are asking for a common strategy and a cohesive set of end-to-end security workflows across the Microsoft 365 services. Our goal is to align strategies to build solutions that bridge security operations and common administrator tasks. 
 In Intune, we aim to accomplish this goal by publishing a set of Microsoft recommended "Security baselines" (**Intune** > **Security baselines**).  An administrator can create security policies directly from these baselines, and then deploy them to their users. You can also customize the best practice recommendations to meet the needs of your organization. Intune makes sure that devices stay in compliance with these baselines, and notifies administrators of users or devices that aren't in compliance.
 
 This feature is in public preview so any profiles created now will not move over to Security Baselines templates that are generally available (GA). You shouldn't plan to use these preview templates in your production environment.
@@ -2222,8 +2222,8 @@ With this feature update, you can create a device configuration profile that swi
 [Introducing Windows 10 in S mode](https://www.microsoft.com/windows/s-mode) provides more information on S mode.
 Applies to: the most recent [Windows Insider](https://docs.microsoft.com/windows-insider/at-work-pro/) build (while in preview).
 
-#### Windows Defender ATP configuration package automatically added to configuration profile<!-- 2144658 -->
-When using [Advanced Threat Protection and onboarding](../protect/advanced-threat-protection.md#onboard-windows-devices-by-using-a-configuration-profile) devices in Intune, you previously had to download a configuration package, and add it to your configuration profile. With this update, Intune automatically gets the package from Windows Defender Security Center, and adds it to your profile.
+#### Microsoft Defender ATP configuration package automatically added to configuration profile<!-- 2144658 -->
+When using [Advanced Threat Protection and onboarding](../protect/advanced-threat-protection.md#onboard-windows-devices-by-using-a-configuration-profile) devices in Intune, you previously had to download a configuration package, and add it to your configuration profile. With this update, Intune automatically gets the package from Microsoft Defender Security Center, and adds it to your profile.
 Applies to Windows 10 and later.
 
 #### Require users to connect during device setup<!--2311457-->
@@ -2431,10 +2431,10 @@ An image that shows the device count of a different platform is also shown. For 
 
 #### Device compliance supports 3rd party anti-virus solutions<!-- 2325484 -->
 When you create a device compliance policy (**Device compliance** > **Policies** > **Create policy** > **Platform: Windows 10 and later** > **Settings** > **System Security**), there are new **[Device Security](../protect/compliance-policy-create-windows.md)** options: 
-- **Antivirus**: When set to **Require**, you can check compliance using antivirus solutions that are registered with Windows Security Center, such as Symantec and Windows Defender. 
-- **AntiSpyware**: When set to **Require**, you can check compliance using antispyware solutions that are registered with Windows Security Center, such as Symantec and Windows Defender. 
+- **Antivirus**: When set to **Require**, you can check compliance using antivirus solutions that are registered with Windows Security Center, such as Symantec and Microsoft Defender.
+- **AntiSpyware**: When set to **Require**, you can check compliance using antispyware solutions that are registered with Windows Security Center, such as Symantec and Microsoft Defender.
 
-Applies to: Windows 10 and later 
+Applies to: Windows 10 and later
 
 ### Device enrollment
 
@@ -2666,11 +2666,11 @@ When enabled (not configured), the work contact caller details are displayed in 
 
 Applies to: Android work profile devices on Android OS v6.0 and newer
 
-#### New Windows Defender Credential Guard settings added to endpoint protection settings<!--1102252 --><!--from 1802 and 1804-->
+#### New Microsoft Defender Credential Guard settings added to endpoint protection settings<!--1102252 --><!--from 1802 and 1804-->
 
-With this update, [Windows Defender Credential Guard](https://docs.microsoft.com/windows/access-protection/credential-guard/credential-guard) (**Device configuration** > **Profiles** > **Endpoint protection**) includes the following settings: 
+With this update, [Microsoft Defender Credential Guard](https://docs.microsoft.com/windows/access-protection/credential-guard/credential-guard) (**Device configuration** > **Profiles** > **Endpoint protection**) includes the following settings:
 
-- **Windows Defender Credential Guard**: Turns on Credential Guard with virtualization-based security. Enabling this feature helps protect credentials at the next reboot when **Platform Security Level with Secure Boot** and **Virtualization Based Security** are both enabled. Options include:
+- **Microsoft Defender Credential Guard**: Turns on Credential Guard with virtualization-based security. Enabling this feature helps protect credentials at the next reboot when **Platform Security Level with Secure Boot** and **Virtualization Based Security** are both enabled. Options include:
   - **Disabled**: If Credential Guard was previously turned on with the **Enabled without lock**" option, then it turns off Credential Guard remotely.
 
   - **Enabled with UEFI lock**: Ensures that Credential Guard cannot be disabled using a registry key or using Group Policy. To disable Credential Guard after using this setting, you must set the Group Policy to "Disabled". Then, remove the security functionality from each computer, with a physically present user. These steps clear the configuration persisted in UEFI. As long as the UEFI configuration persists, Credential Guard is enabled.
@@ -2726,7 +2726,7 @@ On the Enrollment Overview page, you can view the trend of enrollment failures a
 
 #### Advanced Threat Protection (ATP) and Intune are fully integrated<!-- 1629303 -->
 
-[Advanced Threat Protection (ATP)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/dashboard-windows-defender-advanced-threat-protection) shows the risk level of Windows 10 devices. In Windows Defender Security Center (ATP portal), you can create a connection to Microsoft Intune. Once created, an Intune compliance policy is used to determine an acceptable threat level. If the threat level is exceeded, an Azure Active Directory (AD) Conditional Access policy can then block access to different apps within your organization.
+[Advanced Threat Protection (ATP)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/dashboard-windows-defender-advanced-threat-protection) shows the risk level of Windows 10 devices. In Microsoft Defender Security Center (ATP portal), you can create a connection to Microsoft Intune. Once created, an Intune compliance policy is used to determine an acceptable threat level. If the threat level is exceeded, an Azure Active Directory (AD) Conditional Access policy can then block access to different apps within your organization.
 
 This feature allows ATP to scan files, detect threats, and report any risk on your Windows 10 devices.
 
@@ -2926,10 +2926,10 @@ You now have the option to select the following Windows 10 Insider Preview servi
 For more information about these channels, see [Manage Insider Preview Builds](https://insider.windows.com/en-us/for-business-getting-started/#explore).
 For more information about creating deployment channels in Intune, see [Manage software updates in Intune](../protect/windows-update-for-business-configure.md).
 
-### New Windows Defender Exploit Guard settings<!-- 1631893 -->
+### New Microsoft Defender Exploit Guard settings<!-- 1631893 -->
 
 Six new <strong>Attack Surface Reduction</strong> settings and expanded <strong>Controlled folder access: Folder protection</strong> capabilities are now available. These settings can be found at: Device configuration\Profiles\
-Create profile\Endpoint protection\Windows Defender Exploit Guard.
+Create profile\Endpoint protection\Microsoft Defender Exploit Guard.
 
 #### Attack Surface Reduction
 
@@ -2978,9 +2978,9 @@ If your device is running on Windows 10 RS1 or later, download the latest versio
 - The Feedback Hub app on Windows 10
 - Email WinCPfeedback@microsoft.com  
 
-#### New Windows Defender Application Guard settings<!-- 1631890 -->
+#### New Microsoft Defender Application Guard settings<!-- 1631890 -->
 
-- **Enable graphics acceleration**: Administrators can enable a virtual graphics processor for Windows Defender Application Guard. This setting allows the CPU to offload graphics rendering to the vGPU. This can improve performance when working with graphics intense websites or watching video within the container.
+- **Enable graphics acceleration**: Administrators can enable a virtual graphics processor for Microsoft Defender Application Guard. This setting allows the CPU to offload graphics rendering to the vGPU. This can improve performance when working with graphics intense websites or watching video within the container.
 
 - **SaveFilestoHost**: Administrators can enable files to pass from Microsoft Edge running in the container to the host file system. Turning this on allows users to download files from Microsoft Edge in the container to the host file system.
 
@@ -3049,9 +3049,9 @@ Users can now use the Device Enrollment Manager when enrolling with the macOS Co
 
 ### Device management
 
-#### Windows defender health status and threat status reports<!--854704 -->
+#### Microsoft defender health status and threat status reports<!--854704 -->
 
-Understanding Windows Defender's health and status is key to managing Windows PCs.  With this update, Intune adds new reports and actions to the status and health of the Windows Defender agent. Using a status roll-up report in the [Device Compliance workload](../protect/compliance-policy-monitor.md), you can see devices that need any of the following:
+Understanding Microsoft Defender's health and status is key to managing Windows PCs.  With this update, Intune adds new reports and actions to the status and health of the Microsoft Defender agent. Using a status roll-up report in the [Device Compliance workload](../protect/compliance-policy-monitor.md), you can see devices that need any of the following:
 - signature update
 - Restart
 - manual intervention
@@ -3129,7 +3129,7 @@ Protect files and folders from unauthorized changes by unfriendly apps.<br><br>*
 
 #### Additions to System Security settings for Windows 10 and later compliance policies<!--1704133-->
 
-Additions to the Windows 10 compliance settings are now available, including requiring Firewall and Windows Defender Antivirus.
+Additions to the Windows 10 compliance settings are now available, including requiring Firewall and Microsoft Defender Antivirus.
 
 ### Intune apps
 
@@ -3217,18 +3217,18 @@ The **Automatic redeployment** setting allows users with administrative rights t
 #### Support for additional source editions in the Windows 10 edition upgrade policy <!-- 903672,  1119689 -->
 You can now use the Windows 10 edition upgrade policy to upgrade from additional Windows 10 editions (Windows 10 Pro, Windows 10 Pro for Education, Windows 10 Cloud, etc.). Prior to this release, the supported edition upgrade paths were more limited. For details, see [How to configure Windows 10 edition upgrades](../configuration/edition-upgrade-configure-windows-10.md).
 
-#### New Windows Defender Security Center (WDSC) device configuration profile settings<!-- 1335507 -->
+#### New Microsoft Defender Security Center (WDSC) device configuration profile settings<!-- 1335507 -->
 
-Intune adds a new section of device configuration profile settings under the Endpoint protection named **Windows Defender Security Center**. IT admins can configure which pillars of the Windows Defender Security Center app end users can access. If an IT admin hides a pillar in the Windows Defender Security Center app, all notifications related to the hidden pillar do not display on the user's device.
+Intune adds a new section of device configuration profile settings under the Endpoint protection named **Microsoft Defender Security Center**. IT admins can configure which pillars of the Microsoft Defender Security Center app end users can access. If an IT admin hides a pillar in the Microsoft Defender Security Center app, all notifications related to the hidden pillar do not display on the user's device.
 
-These are the pillars admins can hide from the Windows Defender Security Center device configuration profile settings:
+These are the pillars admins can hide from the Microsoft Defender Security Center device configuration profile settings:
 - Virus and threat protection
 - Device performance and health
 - Firewall and network protections
 - App and browser control
 - Family options
 
-IT admins can also customize which notifications users receive. For example, you can configure whether the users receive all notifications generated by visible pillars in the WDSC, or only critical notifications. Non-critical notifications include periodic summaries of Windows Defender Antivirus activity and notifications when scans have completed. All other notifications are considered critical. Additionally, you can also customize the notification content itself, for example, you can provide the IT contact information to embed in the notifications that appear on the users' devices.
+IT admins can also customize which notifications users receive. For example, you can configure whether the users receive all notifications generated by visible pillars in the WDSC, or only critical notifications. Non-critical notifications include periodic summaries of Microsoft Defender Antivirus activity and notifications when scans have completed. All other notifications are considered critical. Additionally, you can also customize the notification content itself, for example, you can provide the IT contact information to embed in the notifications that appear on the users' devices.
 
 #### Multiple connector support for SCEP and PFX certificate handling<!-- 1361755 -->
 
@@ -3471,8 +3471,8 @@ The following data is not retained:
 ### Window 10 update ring assignments are displayed<!-- 1621837 -->
 When you are **Troubleshooting,** for the user you are viewing, you are able to see any Windows 10 update rings assignments.  
 
-### Windows Defender Advanced Threat Protection reporting frequency settings <!-- 1455974  -->
-Windows Defender Advanced Threat Protection (WDATP) service allows admins to manage reporting frequency for managed devices. With the new **Expedite telemetry reporting frequency** option, WDATP collects data and assesses risks more frequently. The default for reporting optimizes speed and performance. Increasing the frequency of reporting can be valuable for high-risk devices. This setting can be found in the **Windows Defender ATP** profile in **Device configurations**.
+### Microsoft Defender Advanced Threat Protection reporting frequency settings <!-- 1455974  -->
+Microsoft Defender Advanced Threat Protection (WDATP) service allows admins to manage reporting frequency for managed devices. With the new **Expedite telemetry reporting frequency** option, WDATP collects data and assesses risks more frequently. The default for reporting optimizes speed and performance. Increasing the frequency of reporting can be valuable for high-risk devices. This setting can be found in the **Microsoft Defender ATP** profile in **Device configurations**.
 
 ### Audit updates<!-- 1412961 -->  
 Intune auditing provides a record of change operations related to Intune.  All create, update, delete, and remote task operations are captured and retained for one year.  The Azure portal provides a view of the last 30 days of audit data in each workload, and is filterable.  A corresponding Graph API allows retrieval of the auditing data stored for the last year.
@@ -3534,18 +3534,18 @@ With this release, the Device install status report displays the app version num
 ### Admins can now configure the Firewall settings on a device using a device configuration profile<!-- 951708 -->   
 Admins can turn on firewall for devices, and also configure various protocols for domain, private, and public networks.  These firewall settings can be found in the "Endpoint protection" profile.
 
-### Windows Defender Application Guard helps protect devices from untrusted websites, as defined by your organization<!-- 958257 -->   
+### Microsoft Defender Application Guard helps protect devices from untrusted websites, as defined by your organization<!-- 958257 -->   
 Admins can define sites as "trusted" or "corporate" using a Windows Information Protection workflow or the new "Network boundary" profile under device configurations. If they are viewed with Microsoft Edge, any sites that aren't listed in on a 64-bit Windows 10 device's trusted network boundary open instead in a browser within a Hyper-V virtual computer.
 
 Application Guard can be found in the device configuration profiles, in the "Endpoint protection" profile. From there, admins can configure interaction between the virtualized browser and the host machine, nontrusted sites and trusted sites, and storing data generated in the virtualized browser. To use Application Guard on a device, a network boundary first must be configured. It's important to define only one network boundary for a device.  
 
-### Windows Defender Application Control on Windows 10 Enterprise provides mode to trust only authorized apps<!-- 1031096 -->    
-With thousands of new malicious files created every day, using antivirus signature-based detection to fight against malware might no longer provide an adequate defense against new attacks. Using Windows Defender Application Control on Windows 10 Enterprise, you can change device configuration from a mode where apps are trusted unless blocked by an antivirus or other security solution, to a mode where the operating system trusts only apps authorized by your enterprise. You assign trust to apps in Windows Defender Application Control.
+### Microsoft Defender Application Control on Windows 10 Enterprise provides mode to trust only authorized apps<!-- 1031096 -->    
+With thousands of new malicious files created every day, using antivirus signature-based detection to fight against malware might no longer provide an adequate defense against new attacks. Using Microsoft Defender Application Control on Windows 10 Enterprise, you can change device configuration from a mode where apps are trusted unless blocked by an antivirus or other security solution, to a mode where the operating system trusts only apps authorized by your enterprise. You assign trust to apps in Microsoft Defender Application Control.
 
 Using Intune, you can configure the application control policies either in "audit only" mode or enforce mode. Apps aren't blocked when running in "audit only" mode. "Audit only" mode logs all events in local client logs. You can also configure whether only Windows components and Microsoft Store apps are allowed to run or whether additional apps with good reputations as defined by the Intelligent Security Graph are allowed to run.
 
-### Window Defender Exploit Guard is a new set of intrusion prevention capabilities for Windows 10<!-- 1063615 -->   
-Window Defender Exploit Guard includes custom rules to reduce the exploitability of applications, prevents macro and script threats, automatically blocks network connections to low reputation IP addresses, and can secure data from ransomware and unknown threats. Windows Defender Exploit Guard consists of the following components:
+### Microsoft Defender Exploit Guard is a new set of intrusion prevention capabilities for Windows 10<!-- 1063615 -->   
+Microsoft Defender Exploit Guard includes custom rules to reduce the exploitability of applications, prevents macro and script threats, automatically blocks network connections to low reputation IP addresses, and can secure data from ransomware and unknown threats. Microsoft Defender Exploit Guard consists of the following components:
 
 - **Attack Surface Reduction** provides rules that allow you to prevent macro, script, and email threats.
 - **Controlled Folder access** automatically blocks access to content to protected folders.
@@ -3573,16 +3573,16 @@ Kiosk mode requires:
 - The device must be [properly provisioned](https://docs.microsoft.com/windows/configuration/set-up-a-kiosk-for-windows-10-for-desktop-editions).
 
 ### New device configuration profile for creating network boundaries<!-- 1311967 -->   
-A new device configuration profile called **Network boundary** can be found with your other device configuration profiles. Use this profile to define online resources that you want to be considered corporate and trusted. You must define a network boundary for a device *before* features such as Windows Defender Application Guard and Windows Information Protection can be used on the device. It's important to define only one network boundary for each device.
+A new device configuration profile called **Network boundary** can be found with your other device configuration profiles. Use this profile to define online resources that you want to be considered corporate and trusted. You must define a network boundary for a device *before* features such as Microsoft Defender Application Guard and Windows Information Protection can be used on the device. It's important to define only one network boundary for each device.
 
-You can define enterprise cloud resources, IP address ranges, and internal proxy servers that you want to be considered trusted. Once defined, the network boundary can be consumed by other features such as Windows Defender Application Guard and Windows Information Protection.
+You can define enterprise cloud resources, IP address ranges, and internal proxy servers that you want to be considered trusted. Once defined, the network boundary can be consumed by other features such as Microsoft Defender Application Guard and Windows Information Protection.
 
-### Two additional settings for Windows Defender Antivirus<!-- 1338409 -->  
+### Two additional settings for Microsoft Defender Antivirus<!-- 1338409 -->  
 **File blocking level**
 
 | | |
 |---|---|
-| Not Configured | **Not Configured** uses the default Windows Defender Antivirus blocking level and provides strong detection without increasing the risk of detecting legitimate files. |
+| Not Configured | **Not Configured** uses the default Microsoft Defender Antivirus blocking level and provides strong detection without increasing the risk of detecting legitimate files. |
 | High | **High** applies a strong level of detection.
 | High +  | **High +** provides the High level with additional protection measures that might impact client performance.
 | Zero tolerance  | **Zero tolerance** blocks all unknown executables. |
@@ -3594,7 +3594,7 @@ We recommend you set File blocking level to the default, **Not configured**.
 
 | | |
 |--|--|
-| Number of seconds (0-50) | Specify the maximum amount of time that Windows Defender Antivirus should block a file while waiting for a result from the cloud. The default amount is 10 seconds: any additional time specified here (up to 50 seconds) is added to those 10 seconds. In most cases, the scan takes much less time than the maximum. Extending the time allows the cloud to thoroughly investigate suspicious files. We recommend that you enable this setting and specify at least 20 additional seconds. |
+| Number of seconds (0-50) | Specify the maximum amount of time that Microsoft Defender Antivirus should block a file while waiting for a result from the cloud. The default amount is 10 seconds: any additional time specified here (up to 50 seconds) is added to those 10 seconds. In most cases, the scan takes much less time than the maximum. Extending the time allows the cloud to thoroughly investigate suspicious files. We recommend that you enable this setting and specify at least 20 additional seconds. |
 
 ### Citrix VPN added for Windows 10 devices<!-- 1512457 -->  
 You can configure Citrix VPN for their Windows 10 devices. You can choose the Citrix VPN in the *Select a connection type* list in the **Base VPN** blade when configuring a VPN for Windows 10 and later.
@@ -3701,21 +3701,21 @@ You can control mobile device access to corporate resources using Conditional Ac
 Risk is assessed based on telemetry collected from devices running Zimperium. You can configure EMS Conditional Access policies based on Zimperium risk assessment enabled through Intune device compliance policies, which you can use to allow or block non-compliant devices to access corporate resources based on detected threats.
 
 ### New settings for Windows 10 device restriction profile <!--- 978575, 1308849, -->  
-We are adding new settings to the Windows 10 device restriction profile in the Windows Defender SmartScreen category.
+We are adding new settings to the Windows 10 device restriction profile in the Microsoft Defender SmartScreen category.
 
 For details about the Windows 10 device restriction profile, see [Windows 10 and later device restriction settings](../configuration/device-restrictions-windows-10.md).
 
 ### Remote support for Windows and Windows Mobile devices  <!-- 1070473 -->  
 Intune can now use the [TeamViewer](https://www.teamviewer.com) software, purchased separately, to enable you to give remote assistance to your users who are running Windows, and Windows Mobile devices.
 
-### Scan devices with Windows Defender<!-- 1280988  1280990   -->
-You can now run a **Quick scan**, **Full scan**, and **Update signatures** with Windows Defender Antivirus on managed Windows 10 devices. From the device's overview blade, choose the action to run on the device. You are prompted to confirm the action before the command is sent to the device. 
+### Scan devices with Microsoft Defender<!-- 1280988  1280990   -->
+You can now run a **Quick scan**, **Full scan**, and **Update signatures** with Microsoft Defender Antivirus on managed Windows 10 devices. From the device's overview blade, choose the action to run on the device. You are prompted to confirm the action before the command is sent to the device. 
 
 **Quick scan**: A quick scan scans locations where malware registers to start, such as registry keys and known Windows startup folders. A quick scan takes an average of five minutes. Combined with the **Always-on real-time protection** setting that scans files when they are opened, closed, and whenever a user navigates to a folder, a quick scan helps provide protection from malware that might be in the system or the kernel. Users see the scan results on their devices when it finishes. 
 
 **Full scan**: A full scan can be useful on devices that have encountered a malware threat to identify if there are any inactive components that require a more thorough clean-up, and is useful for running on-demand scans. Full scan can take an hour to run. Users see the scan results on their devices when it finishes. 
 
-**Update signatures**: The update signature command updates Windows Defender Antivirus malware definitions and signatures. This helps ensure Windows Defender Antivirus is effective in detecting malware. This feature is for Windows 10 devices only, pending device internet connectivity. 
+**Update signatures**: The update signature command updates Microsoft Defender Antivirus malware definitions and signatures. This helps ensure Microsoft Defender Antivirus is effective in detecting malware. This feature is for Windows 10 devices only, pending device internet connectivity. 
 
 ### The Enable/Disable button is removed from the Intune Certificate Authority page of the Intune Azure portal <!-- 1400455 -->
  We are eliminating an extra step in setting up the certificate connector on Intune. Currently, you download the certificate connector and then enable it in the Intune console. However, if you disable the connector in the Intune console, the connector continues to issue certificates.
@@ -3888,7 +3888,7 @@ The Company Portal app for macOS is now available as part of the public preview 
 <!--1063965, 1308850  -->
 In this release, we've added new settings for the [Windows 10 device restriction profile](/intune/device-restrictions-windows-10) in the following categories:
 
-- Windows Defender SmartScreen
+- Microsoft Defender SmartScreen
 - App store
 
 ### Updates to the Windows 10 endpoint protection device profile for BitLocker settings
@@ -4047,7 +4047,7 @@ For more information, see [Endpoint protection settings for Windows 10 and later
 ### New settings for Windows 10 device restriction profile<!--- 978527,  978550, 978569, 1050031, 1058611,  --->
 In this release, we've added new settings for the Windows 10 device restriction profile, in the following categories:
 
-- Windows Defender
+- Microsoft Defender
 - Cellular and connectivity
 - Locked screen experience
 - Privacy

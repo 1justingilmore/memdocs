@@ -362,7 +362,7 @@ In this technical preview, if the Company Portal is open for more than 15 minute
 
 ##### Onboard devices for Microsoft Defender ATP  
 
-1. In the Configuration Manager console, navigate **Assets and Compliance** > **Overview** > **Endpoint Protection** > **Windows Defender ATP Policies** and click **Create Windows Defender ATP Policy**. The Microsoft Defender ATP Policy Wizard opens.  
+1. In the Configuration Manager console, navigate **Assets and Compliance** > **Overview** > **Endpoint Protection** > **Microsoft Defender ATP Policies** and click **Create Windows Defender ATP Policy**. The Microsoft Defender ATP Policy Wizard opens.  
 
 2. Type the **Name** and **Description** for the Microsoft Defender ATP policy and select **Onboarding**. Click Next.  
 
@@ -382,13 +382,13 @@ In this technical preview, if the Company Portal is open for more than 15 minute
 
 ##### Monitor Microsoft Defender ATP  
 
-1.  In the Configuration Manager console, navigate **Monitoring** > **Overview** > **Security** and then click **Windows Defender ATP**.  
+1.  In the Configuration Manager console, navigate **Monitoring** > **Overview** > **Security** and then click **Microsoft Defender ATP**.  
 
 2.  Review the Microsoft Defender Advanced Threat Protection dashboard.  
 
-    -   **Windows Defender Agent Deployment Status** – The number and percentage of eligible managed client computers with active Microsoft Defender ATP policy onboarded  
+    -   **Microsoft Defender Agent Deployment Status** – The number and percentage of eligible managed client computers with active Microsoft Defender ATP policy onboarded  
 
-    -   **Windows Defender ATP Agent Health** – Percentage of computer clients reporting status for their Microsoft Defender ATP agent  
+    -   **Microsoft Defender ATP Agent Health** – Percentage of computer clients reporting status for their Microsoft Defender ATP agent  
 
         -   **Healthy** - Working properly  
 

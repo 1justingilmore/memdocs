@@ -61,15 +61,15 @@ This policy currently includes the following settings:
 > [!TIP]
 > For more information on using group policy to configure these and other settings, see [Microsoft Edge Legacy group policies](https://docs.microsoft.com/microsoft-edge/deploy/group-policies/).
 
-### Configure Windows Defender SmartScreen settings for Microsoft Edge Legacy
+### Configure Microsoft Defender SmartScreen settings for Microsoft Edge Legacy
 <!--1353701-->
-This policy adds three settings for [Windows Defender SmartScreen](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview). The policy now includes the following additional settings on the **SmartScreen Settings** page:
+This policy adds three settings for [Microsoft Defender SmartScreen](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview). The policy now includes the following additional settings on the **SmartScreen Settings** page:
 
-- **Allow SmartScreen**: Specifies whether Windows Defender SmartScreen is allowed. For more information, see the [AllowSmartScreen browser policy](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowsmartscreen).
+- **Allow SmartScreen**: Specifies whether Microsoft Defender SmartScreen is allowed. For more information, see the [AllowSmartScreen browser policy](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowsmartscreen).
 
-- **Users can override SmartScreen prompt for sites**: Specifies whether users can override the Windows Defender SmartScreen Filter warnings about potentially malicious websites. For more information, see the [PreventSmartScreenPromptOverride browser policy](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-preventsmartscreenpromptoverride).
+- **Users can override SmartScreen prompt for sites**: Specifies whether users can override the Microsoft Defender SmartScreen Filter warnings about potentially malicious websites. For more information, see the [PreventSmartScreenPromptOverride browser policy](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-preventsmartscreenpromptoverride).
 
-- **Users can override SmartScreen prompt for files**: Specifies whether users can override the Windows Defender SmartScreen Filter warnings about downloading unverified files. For more information, see the [PreventSmartScreenPromptOverrideForFiles browser policy](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-preventsmartscreenpromptoverrideforfiles).
+- **Users can override SmartScreen prompt for files**: Specifies whether users can override the Microsoft Defender SmartScreen Filter warnings about downloading unverified files. For more information, see the [PreventSmartScreenPromptOverrideForFiles browser policy](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-preventsmartscreenpromptoverrideforfiles).
 
 ## Create the browser profile
 

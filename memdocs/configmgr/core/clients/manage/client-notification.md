@@ -186,15 +186,15 @@ Add this permission to any custom roles that need to trigger Endpoint Protection
 
 ### Full Scan
 
-Trigger Endpoint Protection or Windows Defender to run a *full* antimalware scan.  
+Trigger Endpoint Protection or Microsoft Defender to run a *full* antimalware scan.  
 
 ### Quick Scan
 
-Trigger Endpoint Protection or Windows Defender to run a *quick* antimalware scan.  
+Trigger Endpoint Protection or Microsoft Defender to run a *quick* antimalware scan.  
 
 ### Download Definition
 
-Trigger Endpoint Protection or Windows Defender to download the latest antimalware definitions.  
+Trigger Endpoint Protection or Microsoft Defender to download the latest antimalware definitions.  
 
 ## See also
 

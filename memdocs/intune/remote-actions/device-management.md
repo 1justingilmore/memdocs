@@ -77,7 +77,7 @@ The actions available depend on the device platform, and the configuration of th
   - [Reset passcode](device-passcode-reset.md)
   - [Restart](device-restart.md) (Windows only)
   - [Retire](devices-wipe.md#retire)
-  - [Update Windows Defender Security Intelligence](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/manage-protection-updates-windows-defender-antivirus)
+  - [Update Microsoft Defender Security Intelligence](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/manage-protection-updates-windows-defender-antivirus)
   - [Windows 10 PIN reset](device-windows-pin-reset.md)
   - [Wipe](devices-wipe.md#wipe)
   - [Send custom notification](custom-notifications.md#send-a-custom-notification-to-a-single-device) (Android, iOS/iPadOS)

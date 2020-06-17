@@ -19,7 +19,7 @@ manager: dougeby
 
 Endpoint Protection can help manage and monitor [Microsoft Defender Advanced Threat Protection (ATP)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) (formerly known as Windows Defender ATP). Microsoft Defender ATP helps enterprises detect, investigate, and respond to advanced attacks on their networks. Configuration Manager policies can help you onboard and monitor Windows 10 clients.
 
-Microsoft Defender ATP is a service in the [Windows Defender Security Center](https://securitycenter.windows.com). By adding and deploying a client onboarding configuration file, Configuration Manager can monitor deployment status and Microsoft Defender ATP agent health. Microsoft Defender ATP is supported on PCs running the Configuration Manager client or [managed by Microsoft Intune](https://docs.microsoft.com/intune/protect/advanced-threat-protection).
+Microsoft Defender ATP is a service in the [Microsoft Defender Security Center](https://securitycenter.windows.com). By adding and deploying a client onboarding configuration file, Configuration Manager can monitor deployment status and Microsoft Defender ATP agent health. Microsoft Defender ATP is supported on PCs running the Configuration Manager client or [managed by Microsoft Intune](https://docs.microsoft.com/intune/protect/advanced-threat-protection).
 
 ## Prerequisites
 
@@ -62,7 +62,7 @@ Starting in Configuration Manager version 2002, you can onboard the following op
 
 ## Onboard devices
 
-1. In the Configuration Manager console, navigate to **Assets and Compliance** > **Endpoint Protection** > **Windows Defender ATP Policies** and select **Create Windows Defender ATP Policy**. The Microsoft Defender ATP Policy Wizard opens.  
+1. In the Configuration Manager console, navigate to **Assets and Compliance** > **Endpoint Protection** > **Microsoft Defender ATP Policies** and select **Create Windows Defender ATP Policy**. The Microsoft Defender ATP Policy Wizard opens.  
 1. Type the **Name** and **Description** for the Microsoft Defender ATP policy and select **Onboarding**.
 1. **Browse** to the Configuration file provided by your organization's Microsoft Defender ATP cloud service tenant.
    - For Windows 8.1 or Windows Server 2012 R2 and 2016, provide the **Workspace key** and **Workspace ID**.
@@ -78,13 +78,13 @@ Select **Deploy** to target the Microsoft Defender ATP policy to clients.
 
 ## Monitor
 
-1. In the Configuration Manager console, navigate **Monitoring** > **Security** and then select **Windows Defender ATP**.  
+1. In the Configuration Manager console, navigate **Monitoring** > **Security** and then select **Microsoft Defender ATP**.  
 
 1. Review the Microsoft Defender Advanced Threat Protection dashboard.  
 
-    - **Windows Defender Agent Deployment Status**: The number and percentage of eligible managed client computers with active Microsoft Defender ATP policy onboarded  
+    - **Microsoft Defender Agent Deployment Status**: The number and percentage of eligible managed client computers with active Microsoft Defender ATP policy onboarded  
 
-    - **Windows Defender ATP Agent Health**: Percentage of computer clients reporting status for their Microsoft Defender ATP agent  
+    - **Microsoft Defender ATP Agent Health**: Percentage of computer clients reporting status for their Microsoft Defender ATP agent  
 
         - **Healthy** - Working properly  
 
@@ -104,7 +104,7 @@ Select **Deploy** to target the Microsoft Defender ATP policy to clients.
 
 1. Download the compressed archive (.zip) file and extract the contents. Offboarding files are valid for 30 days.
 
-1. In the Configuration Manager console, navigate to **Assets and Compliance** > **Endpoint Protection** > **Windows Defender ATP Policies** and select **Create Windows Defender ATP Policy**. The Microsoft Defender ATP Policy Wizard opens.  
+1. In the Configuration Manager console, navigate to **Assets and Compliance** > **Endpoint Protection** > **Microsoft Defender ATP Policies** and select **Create Microsoft Defender ATP Policy**. The Microsoft Defender ATP Policy Wizard opens.  
 
 1. Type the **Name** and **Description** for the Microsoft Defender ATP policy and select **Offboarding**.
 

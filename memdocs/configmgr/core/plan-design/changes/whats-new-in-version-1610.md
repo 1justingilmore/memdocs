@@ -97,9 +97,9 @@ For details, see [Manage apps from the Windows Store for Business with Configura
 You can now request a policy sync for an Intune-enrolled device from the Configuration Manager console, instead of needing to request a sync from the Company Portal app on the device itself. Sync request state information is available as a new column in device views, called **Remote Sync State**. The information is also available in the discovery data section of the **Properties** dialog for each device.
 
 
-## Use compliance settings to configure Windows Defender settings
-You can now configure Windows Defender client settings on Intune-enrolled Windows 10 computers by using configuration items in the Configuration Manager console.
-For details, see the **Windows Defender** section in [Create configuration items for Windows 8.1 and Windows 10 devices managed without the Configuration Manager client](../../../mdm/deploy-use/create-configuration-items-for-windows-8.1-and-windows-10-devices-managed-without-the-client.md).
+## Use compliance settings to configure Microsoft Defender settings
+You can now configure Microsoft Defender client settings on Intune-enrolled Windows 10 computers by using configuration items in the Configuration Manager console.
+For details, see the **Microsoft Defender** section in [Create configuration items for Windows 8.1 and Windows 10 devices managed without the Configuration Manager client](../../../mdm/deploy-use/create-configuration-items-for-windows-8.1-and-windows-10-devices-managed-without-the-client.md).
 
 
 

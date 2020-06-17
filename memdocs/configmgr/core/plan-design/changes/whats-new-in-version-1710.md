@@ -173,19 +173,19 @@ For more information, see [CNG certificates overview](../network/cng-certificate
 ### Create and deploy Exploit Guard policies
 <!-- 1355468 -->
 
-You can [create and deploy policies](../../../protect/deploy-use/create-deploy-exploit-guard-policy.md) that manage all four components of Windows Defender Exploit Guard, including attack surface reduction, controlled folder access, exploit protection, and network protection.
+You can [create and deploy policies](../../../protect/deploy-use/create-deploy-exploit-guard-policy.md) that manage all four components of Microsoft Defender Exploit Guard, including attack surface reduction, controlled folder access, exploit protection, and network protection.
 
-### Create and deploy Windows Defender Application Guard policy
+### Create and deploy Microsoft Defender Application Guard policy
 <!-- 1351960 -->
 
-You can [create and deploy Windows Defender Application Guard policies](../../../protect/deploy-use/create-deploy-application-guard-policy.md) by using the Configuration Manager endpoint protection.
+You can [create and deploy Microsoft Defender Application Guard policies](../../../protect/deploy-use/create-deploy-application-guard-policy.md) by using the Configuration Manager endpoint protection.
 
 ### Device Guard policy changes
 <!-- 1355092 -->
 The following three changes have been made in relation to Device Guard policies:
 
-- Device Guard policies have been renamed to Windows Defender Application Control policies. So, for example, the **Create Device Guard policy wizard** is now named **Create Windows Defender Application Control policy wizard**.
-- Devices using the Fall Creators Update for Windows version 1709 don't require a restart to apply the Windows Defender Application Control policies. Restarting is still the default, but you can [turn off restarts](../../../protect/deploy-use/use-device-guard-with-configuration-manager.md).
+- Device Guard policies have been renamed to Microsoft Defender Application Control policies. So, for example, the **Create Device Guard policy wizard** is now named **Create Microsoft Defender Application Control policy wizard**.
+- Devices using the Fall Creators Update for Windows version 1709 don't require a restart to apply the Microsoft Defender Application Control policies. Restarting is still the default, but you can [turn off restarts](../../../protect/deploy-use/use-device-guard-with-configuration-manager.md).
 - You can [set devices to automatically run software](../../../protect/deploy-use/use-device-guard-with-configuration-manager.md) trusted by the Intelligent Security Graph.
 
 

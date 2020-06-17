@@ -1,7 +1,7 @@
 ---
 # required metadata
-title: Use Windows Defender Application Control on HoloLens 2 devices in Microsoft Intune - Azure | Microsoft Docs
-description: Configure the Windows Defender Application Control (WDAC) CSP to allow or block apps from opening on HoloLens 2 devices in Microsoft Intune. Use PowerShell and a custom configuration profile.
+title: Use Microsoft Defender Application Control on HoloLens 2 devices in Microsoft Intune - Azure | Microsoft Docs
+description: Configure the Microsoft Defender Application Control (WDAC) CSP to allow or block apps from opening on HoloLens 2 devices in Microsoft Intune. Use PowerShell and a custom configuration profile.
 keywords:
 author: MandiOhlinger
 ms.author: mandia
@@ -27,7 +27,7 @@ ms.collection: M365-identity-device-management
 
 # Use WDAC and Windows PowerShell to allow or blocks apps on HoloLens 2 devices with Microsoft Intune
 
-Microsoft HoloLens 2 devices support the [Windows Defender Application Control (WDAC) CSP](https://docs.microsoft.com/windows/client-management/mdm/applicationcontrol-csp), which replaces the [AppLocker CSP](https://docs.microsoft.com/windows/client-management/mdm/applocker-csp).
+Microsoft HoloLens 2 devices support the [Microsoft Defender Application Control (WDAC) CSP](https://docs.microsoft.com/windows/client-management/mdm/applicationcontrol-csp), which replaces the [AppLocker CSP](https://docs.microsoft.com/windows/client-management/mdm/applocker-csp).
 
 Using Windows PowerShell and Microsoft Intune, you can use the WDAC CSP to allow or block specific apps from opening on Microsoft HoloLens 2 devices. For example, you may want to allow or prevent the Cortana app from opening on HoloLens 2 devices in your organization.
 
@@ -35,7 +35,7 @@ This feature applies to:
 
 - HoloLens 2 devices running Windows Holographic for Business
 
-The WDAC CSP is based on the [Windows Defender Application Control (WDAC) feature](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control). You can also [use multiple WDAC policies](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/deploy-multiple-windows-defender-application-control-policies).
+The WDAC CSP is based on the [Microsoft Defender Application Control (WDAC) feature](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control). You can also [use multiple WDAC policies](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/deploy-multiple-windows-defender-application-control-policies).
 
 This article shows you how to:
 
@@ -43,7 +43,7 @@ This article shows you how to:
 2. Use Windows PowerShell to convert the WDAC policy rules to XML, update the XML, and then convert the XML to a binary file.
 3. In Microsoft Intune, create a [custom device configuration profile](custom-settings-windows-holographic.md), add this WDAC policy binary file, and apply the policy to your HoloLens 2 devices.
 
-In Intune, you must create a custom configuration profile to use the Windows Defender Application Control (WDAC) CSP. 
+In Intune, you must create a custom configuration profile to use the Microsoft Defender Application Control (WDAC) CSP. 
 
 Use the steps in this article as a template to allow or deny specific apps from opening on HoloLens 2 devices.
 
@@ -64,7 +64,7 @@ Use the steps in this article as a template to allow or deny specific apps from 
 
 ## Example
 
-This example uses Windows PowerShell to create a Windows Defender Application Control (WDAC) policy. The policy prevents specific apps from opening. Then, use Intune to deploy the policy to HoloLens 2 devices.
+This example uses Windows PowerShell to create a Microsoft Defender Application Control (WDAC) policy. The policy prevents specific apps from opening. Then, use Intune to deploy the policy to HoloLens 2 devices.
 
 1. On your desktop computer, open the **Windows PowerShell** app.
 2. Get information about the installed application package on your desktop computer:

@@ -80,4 +80,4 @@ Other versions of Windows, such as [Windows 10 Holographic](https://www.microsof
 * [Turn on Windows Firewall](you-need-to-enable-defender-firewall-windows.md)
 * [Enable User Access Control](you-need-to-enable-uac-windows.md)
 * [Update OS build versions](you-need-to-update-os-build-version-windows.md)
-* [Turn on Windows Defender](turn-on-defender-windows.md)
+* [Turn on Microsoft Defender](turn-on-defender-windows.md)

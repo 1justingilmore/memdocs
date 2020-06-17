@@ -27,8 +27,8 @@ To create and deploy a Microsoft Defender Application Guard policy, you must use
 ## Create a policy, and to browse the available settings
 
 1. In the Configuration Manager console, choose **Assets and Compliance**.
-2. In the **Assets and Compliance** workspace, choose **Overview** > **Endpoint Protection** > **Windows Defender Application Guard**.
-3. In the **Home** tab, in the **Create** group, click **Create Windows Defender Application Guard Policy**.
+2. In the **Assets and Compliance** workspace, choose **Overview** > **Endpoint Protection** > **Microsoft Defender Application Guard**.
+3. In the **Home** tab, in the **Create** group, click **Create Microsoft Defender Application Guard Policy**.
 4. Using the [article](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/configure-md-app-guard) as a reference, you can browse and configure the available settings. Configuration Manager allows you to set certain policy settings:
    - [Host interaction settings](#bkmk_HIS)
    - [Application behavior](#bkmk_ABS)
@@ -77,7 +77,7 @@ Configures application behavior inside the Application Guard session. Before Con
 <!--3555858-->
 Starting in Configuration Manager version 1906, There's a policy setting that enables users to trust files that normally open in Application Guard. Upon successful completion, the files will open on the host device instead of in Application Guard. For more information about the Application Guard policies, see [Configure Microsoft Defender Application Guard policy settings](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/configure-md-app-guard).
 
-- **Allow users to trust files that open in Windows Defender Application Guard** - Enable the user to mark files as trusted. When a file is trusted, it opens on the host rather than in Application Guard. Applies to Windows 10 version 1809 or higher clients.
+- **Allow users to trust files that open in Microsoft Defender Application Guard** - Enable the user to mark files as trusted. When a file is trusted, it opens on the host rather than in Application Guard. Applies to Windows 10 version 1809 or higher clients.
   - **Prohibited:** Don't allow users to mark files as trusted (default).
   - **File checked by antivirus:** Allow users to mark files as trusted after an antivirus check.
   - **All files:** Allow users to mark any file as trusted.
@@ -91,7 +91,7 @@ When you enable file management, you may see errors logged in the client's DCMRe
   - FileTrustCriteria_condition could not be located in the map
   - FileTrustCriteria_condition not found in digest
 
-To edit Application Guard settings, expand **Endpoint Protection** in the **Assets and Compliance** workspace, then click on the **Windows Defender Application Guard** node. Right-click on the policy you want to edit, then select **Properties**.
+To edit Application Guard settings, expand **Endpoint Protection** in the **Assets and Compliance** workspace, then click on the **Microsoft Defender Application Guard** node. Right-click on the policy you want to edit, then select **Properties**.
 
 ## Known issues
 

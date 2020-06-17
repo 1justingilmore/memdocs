@@ -85,11 +85,11 @@ So long as a collection is configured to be excluded, members of that collection
 
 For more information on client installation methods, see [How to deploy clients to Windows computers](../clients/deploy/deploy-clients-to-windows-computers.md).
 
-## Windows Defender configuration settings
+## Microsoft Defender configuration settings
 
-You can now configure Windows Defender client settings on Intune-enrolled Windows 10 computers using configuration items in the Configuration Manager console.
+You can now configure Microsoft Defender client settings on Intune-enrolled Windows 10 computers using configuration items in the Configuration Manager console.
 
-Specifically, you can configure the following Windows Defender settings:
+Specifically, you can configure the following Microsoft Defender settings:
 - Allow real-time monitoring
 - Allow behavior monitoring
 - Enable Network Inspection System
@@ -126,7 +126,7 @@ Specifically, you can configure the following Windows Defender settings:
 1. In the Configuration Manager console, go **Assets and Compliance** > **Overview** > **Compliance Settings** > **Configuration Items**, and create a new **Configuration Item**.
 2. Enter a name, then select **Windows 8.1 and Windows 10** under **Settings for devices managed without the Configuration Manager client** and click **Next**.
 3. Ensure **All Windows 10 (64-bit)** and **All Windows 10 (32-bit)** are selected on the **Supported Platforms** page, then click **Next**.
-4. Select the **Windows Defender** setting group, then click **Next**.
+4. Select the **Microsoft Defender** setting group, then click **Next**.
 5. Configure the desired settings on this page, then click **Next**.
 6. Complete the wizard.
 7. Add this configuration item to a configuration baseline, and deploy this baseline to computers running Windows 10 November Update (1511) or above.

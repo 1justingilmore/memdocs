@@ -59,17 +59,17 @@ For more information on the Intune feature, see [Deploy resource access profiles
 
 <!--1357365-->
 
-The Endpoint Protection workload includes the Windows Defender suite of antimalware protection features:
+The Endpoint Protection workload includes the Microsoft Defender suite of antimalware protection features:
 
-- Windows Defender Antimalware
-- Windows Defender Application Guard  
-- Windows Defender Firewall  
-- Windows Defender SmartScreen  
-- Windows Encryption
-- Windows Defender Exploit Guard  
-- Windows Defender Application Control  
-- Windows Defender Security Center  
-- Windows Defender Advanced Threat Protection (now known as Microsoft Defender Threat Protection)
+- Microsoft Defender Antimalware
+- Microsoft Defender Application Guard  
+- Microsoft Defender Firewall  
+- Microsoft Defender SmartScreen  
+- Microsoft Encryption
+- Microsoft Defender Exploit Guard  
+- Microsoft Defender Application Control  
+- Microsoft Defender Security Center  
+- Microsoft Defender Advanced Threat Protection (formerly known as Windows Defender Threat Protection)
 
 For more information on the Intune feature, see [Endpoint Protection for Microsoft Intune](https://docs.microsoft.com/intune/endpoint-protection-windows-10).
 

@@ -45,4 +45,4 @@ Sometimes issues can occur with your Windows device that may be able to be fixed
 - [I need to enable my Firewall](you-need-to-enable-defender-firewall-windows.md)
 - [I need to enable UAC](you-need-to-enable-uac-windows.md)
 - [I need to update Windows](you-need-to-update-os-build-version-windows.md)
-- [I need to turn on Windows Defender](turn-on-defender-windows.md)
+- [I need to turn on Microsoft Defender](turn-on-defender-windows.md)
